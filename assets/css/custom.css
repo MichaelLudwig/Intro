@@ -115,6 +115,52 @@
   border-radius: var(--radius-md);
 }
 
+/* Footer Links - dezent und klein */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: var(--spacing-lg);
+  justify-content: center;
+  font-size: var(--font-size-sm);
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--text-muted);
+  transition: var(--transition-fast);
+}
+
+.footer-links a:hover {
+  color: var(--text-color);
+}
+
+/* Contact Card Link */
+.contact-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: var(--transition-fast);
+  cursor: pointer;
+}
+
+.contact-card-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contact-email-large {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--primary-color) !important;
+  margin-top: var(--spacing-md);
+}
+
+[data-theme="dark"] .contact-email-large {
+  color: var(--accent-color) !important;
+}
+
 /* Skills Page Layout */
 .skills-grid {
   display: grid;
