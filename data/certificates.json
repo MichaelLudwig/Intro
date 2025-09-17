@@ -1,0 +1,158 @@
+[
+  {
+    "type": "Zertifikat",
+    "title": "Microsoft Certified: Cybersecurity Architect Expert",
+    "institution": "Microsoft",
+    "year": "2024",
+    "details": "SC-100: Microsoft Cybersecurity Architect",
+    "badgeImage": "https://images.credly.com/images/0ba22331-acf9-4e8a-8ce3-b4cc3d376040/image.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "Microsoft 365 Certified: Security Administrator Associate",
+    "institution": "Microsoft",
+    "year": "2023",
+    "details": "MS-500: Microsoft 365 Security Administration",
+    "badgeImage": "https://images.credly.com/images/e1b12077-7be7-493a-8b7a-afa6e58182ce/microsoft365-security-administrator-associate-600x600.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "AWS Partner: Generative AI Essentials",
+    "institution": "Amazon Web Services Training and Certification",
+    "year": "2024",
+    "details": "Generative AI for Business Applications",
+    "badgeImage": "https://images.credly.com/images/4b547104-5ce9-43d5-8708-a7abb4b0c7ec/blob"
+  },
+
+  {
+    "type": "Zertifikat",
+    "title": "TOGAF 9.2 Certified",
+    "institution": "The Open Group",
+    "year": "2021",
+    "details": "Enterprise Architecture Framework",
+    "badgeImage": "https://images.credly.com/images/24c75efb-9a99-47f7-ab6d-fcd359534c1e/badge-togaf9-certified.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "The Open Group Certified: TOGAF® Standard, Version 9.2",
+    "institution": "The Open Group",
+    "year": "2021",
+    "details": "TOGAF Standard Version 9.2",
+    "badgeImage": "https://images.credly.com/images/5b24bb54-2eb2-4833-bd56-02c94a02092d/badge-togaf-version-9.2.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "Microsoft Copilot Partner Bootcamp — FY24 Participant",
+    "institution": "Microsoft Global Partner Solutions (GPS)",
+    "year": "2023",
+    "details": "Microsoft Copilot Partner Training",
+    "badgeImage": "https://images.credly.com/images/081d0ccd-76ae-4801-9017-b2f6bd929a8d/image.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "Professional Scrum Master™ I (PSM I)",
+    "institution": "Scrum.org",
+    "year": "2017",
+    "details": "Professional Scrum Master Level I",
+    "badgeImage": "https://images.credly.com/images/a2790314-008a-4c3d-9553-f5e84eb359ba/image.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "Professional Scrum Product Owner™ I (PSPO I)",
+    "institution": "Scrum.org",
+    "year": "2017",
+    "details": "Professional Scrum Product Owner Level I",
+    "badgeImage": "https://images.credly.com/images/591762c5-fae7-49c6-b326-e1756979928d/image.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "AWS Certified Cloud Practitioner",
+    "institution": "Amazon Web Services Training and Certification",
+    "year": "2023",
+    "details": "Läuft ab am 10. Sept. 2026",
+    "badgeImage": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "AWS Partner: Technical Accredited",
+    "institution": "Amazon Web Services Training and Certification",
+    "year": "2023",
+    "details": "AWS Partner Training",
+    "badgeImage": "https://images.credly.com/images/8f006312-3154-45bf-a845-4a043641e83c/blob"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "AWS Partner: Cloud Economics Essentials",
+    "institution": "Amazon Web Services Training and Certification",
+    "year": "2023",
+    "details": "AWS Partner Training",
+    "badgeImage": "https://images.credly.com/images/5749832b-21b7-47f9-9ad4-b2fef13d0454/blob"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "AWS Partner: Sales Accreditation",
+    "institution": "Amazon Web Services Training and Certification",
+    "year": "2023",
+    "details": "AWS Partner Training",
+    "badgeImage": "https://images.credly.com/images/46ea4542-72a8-46a1-8d68-b72c4ca50820/blob"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "Microsoft Certified: Azure Fundamentals",
+    "institution": "Microsoft",
+    "year": "2021",
+    "details": "AZ-900: Azure Fundamentals",
+    "badgeImage": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+  },
+
+  {
+    "type": "Zertifikat",
+    "title": "Microsoft Cloud Sales Academy",
+    "institution": "Microsoft Cloud Sales Academy",
+    "year": "2021",
+    "details": "Cloud Sales Training",
+    "badgeImage": "https://images.credly.com/images/ae292812-29f3-429b-bf56-ef25caeee896/Part_Final.png"
+  },
+
+  {
+    "type": "Zertifikat",
+    "title": "Exam 346: Managing Office 365 Identities and Requirements",
+    "institution": "Microsoft",
+    "year": "2017",
+    "details": "Office 365 Identity Management",
+    "badgeImage": "https://images.credly.com/images/68236c47-bc97-4db0-8843-135f3ec8da53/Managing_Office_365_Identities_and_Requirements-01.png"
+  },
+  
+  {
+    "type": "Zertifikat",
+    "title": "Exam 463: Implementing a Data Warehouse with Microsoft SQL Server 2012/2014",
+    "institution": "Microsoft",
+    "year": "2013",
+    "details": "Data Warehouse Implementation",
+    "badgeImage": "https://images.credly.com/images/b1b7b1eb-3ffa-409f-8a2c-9df1340c0622/Implementing_a_Data_Warehouse_with_Microsoft_SQL_Server_2012.2014-01.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "Exam 462: Administering Microsoft SQL Server 2012/2014 Databases",
+    "institution": "Microsoft",
+    "year": "2013",
+    "details": "SQL Server Database Administration",
+    "badgeImage": "https://images.credly.com/images/bdd6587b-26ce-4788-9671-90ea499d2325/Administering_Microsoft_SQL_Server_2012.2014_Databases-01.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "Exam 461: Querying Microsoft SQL Server 2012/2014",
+    "institution": "Microsoft",
+    "year": "2013",
+    "details": "SQL Server Querying",
+    "badgeImage": "https://images.credly.com/images/868cddfc-28ba-4671-82b3-0a893807a77e/Querying_Microsoft_SQL_Server_2012.2014-01.png"
+  },
+  {
+    "type": "Zertifikat",
+    "title": "MCSA: SQL Server 2012/2014",
+    "institution": "Microsoft",
+    "year": "2013",
+    "details": "Microsoft Certified Solutions Associate",
+    "badgeImage": "https://images.credly.com/images/e578b1c9-fbd2-432f-9e67-3ac309dd6056/2014-01.png"
+  }
+]

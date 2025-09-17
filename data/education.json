@@ -1,0 +1,16 @@
+[
+  {
+    "type": "Studium",
+    "title": "Diplom, Wirtschaftsmathematik",
+    "institution": "Technische Universität Berlin",
+    "year": "2006–2011",
+    "details": "Hauptstudium Wirtschaftsmathematik"
+  },
+  {
+    "type": "Studium",
+    "title": "Business Mathematics",
+    "institution": "University of Florida",
+    "year": "2009–2010",
+    "details": "Auslandsstudium"
+  }
+]

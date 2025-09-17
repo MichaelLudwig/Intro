@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://micha-portfolio.azurestaticapps.net/sitemap.xml
+
+# Disallow admin/internal paths (if any)
+Disallow: /api/
+Disallow: /.git/
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

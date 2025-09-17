@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "title": "Cloud Application Transition",
+    "role": "Architekt / Technologie Experte",
+    "period": "09/2021–06/2022",
+    "summary": "Koordination und Beratung bei der Cloud Application Transition",
+    "client": "Maschinenbauer (>16000 Mitarbeiter, 200 Anwendungen, 1500 Server)",
+    "highlights": [
+      "Abstimmung und Roadmap Planung mit Cloud-Programm-Leitung und Hosting-Dienstleister",
+      "Sichtung bestehender Unterlagen zur Analyse der Anwendungslandschaft, On-Premises Architektur und Cloud Landing Zone",
+      "Erstellen einer high level Applikationsübersicht bestehender onPrem Applikationen/Systeme",
+      "Begleitung der Transition von onPrem in die Cloud",
+      "Dokumentation der neuen Systemumgebung",
+      "Testing + Freigabe der gerehosteten Applikationen/Systeme in der Cloud"
+    ],
+    "tech": ["Microsoft Azure", "SAP Solution Manager"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-cloud-transition.jpg",
+    "tags": ["Cloud", "Migration", "Produktion"],
+    "category": "CLOUD MIGRATION",
+    "icon": "☁️"
+  },
+  {
+    "id": 2,
+    "title": "Aufbau einer skalierbaren Prozess- und IT-Landschaft",
+    "role": "IT Architekt",
+    "period": "2021",
+    "summary": "Entwicklung einer IT Gesamtarchitektur für eine Holding Gesellschaft welche zukünftige M&A Vorhaben und hohes Wachstum erwartet",
+    "client": "Verpackungshersteller",
+    "highlights": [
+      "Erhebung diverser IT Infrastrukturen der Tochtergesellschaften durch eine Umfeldanalyse",
+      "Design einer skalierbaren Ziel IT Architektur bestehend aus lokalen Infrastrukturen sowie PaaS und SaaS Komponenten im Einklang mit der Geschäftsstrategie und IT Strategie der Holding",
+      "Erarbeitung von IT Architektur Prinzipien sowie fundierter Architekturentscheidungen für essenzielle Themen wie Sourcing, Hybridstellung, Identitätsmanagement, Cloudmigration u.Ä.",
+      "CapEx und OpEx Kostenschätzung und Definition der Implementierungsprojekte für die Ziel-Architektur durch Marktanalysen und Workshops mit Technologie-Experten bei der msg"
+    ],
+    "tech": ["Plattform-unabhängige IT-Infrastrukturkonzeption"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-scalable-architecture.jpg",
+    "tags": ["Architecture", "M&A", "Produktion"],
+    "category": "IT ARCHITEKTUR",
+    "icon": "🏗️"
+  },
+  {
+    "id": 3,
+    "title": "Microsoft O365 Architektur Design und Rollout",
+    "role": "Architekt / Technologie Experte",
+    "period": "04/2020–04/2022",
+    "summary": "Einführung eines modernen Arbeitsplatzes auf Basis von Microsoft Office 365",
+    "client": "Bank (>4000 Bank-Arbeitsplätze)",
+    "highlights": [
+      "Design der Zielarchitektur und Erstellung eines IT-Konzeptes auf Basis von Fachkonzepten, Standard Richtlinien der Bank sowie Sicherheitsanforderungen des BSI",
+      "Einführung einer Microsoft Teams und OneDrive Governance",
+      "Implementierung von Freigabeprozessen und Erarbeitung von Cloud Service Lifecycles",
+      "Dokumentation der Cloud Architektur sowie der Einstellungsmöglichkeiten in einem Konfigurationshandbuch",
+      "Erarbeitung eines Rollen- und Rechtekonzepts für die hybride Architektur",
+      "Evaluation der MS Datenerfassung zur Vorbereitung einer Betriebsvereinbarung"
+    ],
+    "tech": ["Microsoft Azure", "Microsoft M365", "MS Intune", "MS Teams", "MS SharePoint", "MS OneDrive", "MS Power Automate"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-m365-rollout.jpg",
+    "tags": ["Cloud", "Modern Workplace", "Finanzbranche"],
+    "category": "DIGITAL WORKPLACE",
+    "icon": "💼",
+    "featured": 3
+  },
+  {
+    "id": 4,
+    "title": "Arbeitsplatz der Zukunft",
+    "role": "Architekt",
+    "period": "2020",
+    "summary": "Entwicklung einer Client Strategie zum Arbeitsplatz der Zukunft",
+    "client": "IT Dienstleister für Versicherungen (<7500 Arbeitsplätze)",
+    "highlights": [
+      "Erhebung der strategischen, organisatorischen und technischen Rahmenbedingungen in Form einer Umfeldanalyse und Erhebung der Anforderungen im Business Kontext durch eine Use Case Analyse",
+      "Design von Ziel IT Architektur Szenarien im Einklang mit der IT Strategie und IT Infrastruktur",
+      "Wirtschaftlichkeitsanalyse der Handlungsoptionen",
+      "Erarbeitung einer Handlungsempfehlung mit einer erweiterten Balanced Scorecard"
+    ],
+    "tech": ["Microsoft M365", "Citrix", "Windows 10"],
+    "methods": ["Interviews", "Umfeld-Analyse", "UseCase-Analyse", "Wirtschaftlichkeitsanalyse"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-future-workplace.jpg",
+    "tags": ["Strategy", "Modern Workplace", "Versicherungen"],
+    "category": "IT STRATEGIE",
+    "icon": "🎯",
+    "featured": 2
+  },
+  {
+    "id": 5,
+    "title": "Gründung einer digitalisierten Anwaltskanzlei",
+    "role": "Architekt",
+    "period": "2017–2019",
+    "summary": "Design und Implementierung einer vollständigen IT Infrastruktur auf Basis von Microsoft Azure, O365-Architektur und weiteren Microsoft Technologien. Realisierung der Vision einer digitalen papierlosen Kanzlei",
+    "client": "Dierks & Company Rechtsanwaltsgesellschaft",
+    "highlights": [
+      "Konzeption, Implementierung und Betrieb der gesamten IT-Architektur einer Anwaltskanzlei auf Basis von Microsoft Cloud Technologien",
+      "Evaluierung von Cloud-Service-Lösungen für bestimmte Geschäftsanwendungen und Integration der am besten geeigneten Lösungen in die Gesamtinfrastruktur",
+      "Übersetzung der Geschäftsanforderungen in technische Spezifikationen und Ausschreibung von IT-Leistungen, Auswahl externer Dienstleister und Koordination der Implementierung",
+      "Analyse und Redesign des Dokumentenmanagements und Datenmigration",
+      "Design und Implementierung des kompletten Projektlebenszyklus vom Vertrieb über die Lieferung bis zur Rechnungsstellung mit Microsoft Dynamics 365 Project Service Automation",
+      "Planung und Supervision der Installation von Cisco Meraki Netzwerk Infrastruktur, IT-Arbeitsplätzen und Videokonferenzsystemen für ein 6000qm Bürogebäude"
+    ],
+    "tech": ["Office 365", "MS Azure", "MS Intune", "MS Dynamics 365", "MS Power BI", "Cisco Meraki"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-digital-law-firm.jpg",
+    "tags": ["Digital Transformation", "Legal Tech", "Recht"],
+    "category": "DIGITAL WORKPLACE",
+    "icon": "💼",
+    "featured": 1
+  },
+  {
+    "id": 6,
+    "title": "Customer Facing Excellence Plattform",
+    "role": "Architekt, Technische Projektleitung",
+    "period": "2014–2017",
+    "summary": "Aufbau eines globalen Marketing und Sales Programm Managements und Integration einer globalen Lernplattform sowie eines Knowledge-Centers",
+    "client": "Großer Pharma Konzern (ca. 40.000 MA)",
+    "highlights": [
+      "Aufbau eines globalen Programmanagement Portals zur Koordination und Synchronisation von globalen Marketing und Sales Aktivitäten",
+      "Analyse der Geschäftsanforderungen und Design eines Programm-Management-Portals sowie einer Business-Intelligence-Lösung",
+      "Analyse der Konzern IT-Infrastruktur und Design einer technischen Architektur in Abstimmung mit diversen IT-Abteilungen",
+      "Entwicklung der Lösung gemeinsam mit einigen Pilotländern und Erstellung eines Rollout- und Migrationskonzeptes",
+      "Training und Coaching des globalen Marketing und Sales Managements, der Regionalmanager und Projektleiter in den einzelnen Ländern",
+      "Durchführung von PMO-Aktivitäten und Übergabe der PM-Aktivitäten an das Business",
+      "Design und Implementierung eines grafischen Online-Projekt- und Programmberichts, Bereitstellung von übergreifenden Management Dashboards und Präsentationen",
+      "Aufbau einer globalen Lernplattform sowie eines Wissens-Portals (Auswahl und Integration eines geeigneten LMS, Design relevanter Schnittstellen, Spezifikation und Ausschreibung, Auswahl und Koordination externer Dienstleister)"
+    ],
+    "tech": ["Office 365", "SharePoint 2013", "AngularJS", "Visual Studio Code", "SQL Reporting Services", "Excel PowerPivot"],
+    "methods": ["Scrum", "Klassisches Phasenbasiertes PM"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-pharma-platform.jpg",
+    "tags": ["Global Platform", "Pharma", "Marketing"],
+    "category": "BUSINESS INTELLIGENCE",
+    "icon": "📊"
+  }
+]

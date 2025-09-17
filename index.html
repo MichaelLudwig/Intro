@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micha - IT-Architektur | Cloud | AI</title>
+    <meta name="description" content="Portfolio von Micha - Erfahrener IT-Architekt spezialisiert auf Cloud, AI und Enterprise Architecture">
+    
+    <!-- Pico.css Framework -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="assets/css/custom.css">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Micha - IT-Architektur | Cloud | AI">
+    <meta property="og:description" content="Portfolio von Micha - Erfahrener IT-Architekt spezialisiert auf Cloud, AI und Enterprise Architecture">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://micha-portfolio.azurestaticapps.net">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Micha - IT-Architektur | Cloud | AI">
+    <meta name="twitter:description" content="Portfolio von Micha - Erfahrener IT-Architekt spezialisiert auf Cloud, AI und Enterprise Architecture">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav-brand">
+                <img src="assets/img/Logo3.png" alt="ML Logo" class="nav-logo">
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projekte.html" class="nav-link">Projekte</a></li>
+                <li><a href="karriere.html" class="nav-link">Berufserfahrung</a></li>
+                <li><a href="ausbildung.html" class="nav-link">Ausbildung</a></li>
+                <li><a href="zertifikate.html" class="nav-link">Zertifikate</a></li>
+                <li><a href="kenntnisse.html" class="nav-link">Kenntnisse</a></li>
+                <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" aria-label="Theme wechseln">🌙 DARK</button>
+                <button class="nav-toggle" aria-label="Navigation öffnen">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1 class="hero-name">Michael <span class="hero-accent">Ludwig</span></h1>
+                            <p class="claim">KI-Architektur und Complianceberatung<br>IT-Governance und Complianceberatung<br>IT-Strategie & Architekturberatung</p>
+                            <p class="description">
+                                Erfahrener IT-Architekt mit über 20 Jahren Beratungserfahrung. Spezialisiert auf IT-Compliance-Beratung, IT-Strategie- und Architektur-Beratung sowie KI-Architektur und Compliance im Kontext des modernen Arbeitsplatzes und der Digitalisierung der Zusammenarbeit.
+                            </p>
+                            <div class="contact-link-container">
+                                <a href="kontakt.html" class="contact-link">Kontakt aufnehmen →</a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <img class="profile-image" src="assets/img/profile.jpg" alt="Michael Ludwig" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Project Teasers -->
+        <section class="container">
+            <h2>Ausgewählte Projekte</h2>
+            <div class="project-teasers grid grid-3">
+                <!-- Projects will be loaded via JavaScript -->
+            </div>
+            <div class="text-center mt-lg">
+                <a href="projekte.html" class="contact-link">Alle Projekte ansehen →</a>
+            </div>
+        </section>
+
+        <!-- Skill Highlights -->
+        <section class="container">
+            <h2>Kernkompetenzen</h2>
+            
+            <!-- Skills Filter -->
+            <div class="skills-filter">
+                <div class="filter-tags">
+                    <button class="filter-btn active" data-category="all">ALLE</button>
+                    <!-- Filter buttons will be loaded via JavaScript -->
+                </div>
+            </div>
+            
+            <div class="skill-highlights word-cloud">
+                <!-- Skills will be loaded via JavaScript -->
+            </div>
+            <div class="text-center mt-lg">
+                <a href="kenntnisse.html" class="contact-link">Alle Kenntnisse ansehen →</a>
+            </div>
+        </section>
+
+
+        <!-- Contact CTA -->
+        <section class="container text-center">
+            <div class="card">
+                <h2>Interesse an einer Zusammenarbeit?</h2>
+                <p>Lassen Sie uns über Ihr nächstes Projekt sprechen.</p>
+                <a href="kontakt.html" class="btn btn-primary">Jetzt Kontakt aufnehmen</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <!-- Social links will be loaded via JavaScript -->
+                </div>
+                
+                <ul class="footer-links">
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="datenschutz.html">Datenschutz</a></li>
+                </ul>
+            </div>
+            
+            <div class="text-center mt-md">
+                <p>&copy; 2024 Micha. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Initialize the portfolio app
+        document.addEventListener('DOMContentLoaded', function() {
+            new PortfolioApp();
+        });
+    </script>
+</body>
+</html>

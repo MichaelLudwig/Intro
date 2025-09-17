@@ -1,0 +1,119 @@
+{
+  "Fachkompetenzen": [
+    {"name": "IT-Programm- und Projekt-Steuerung", "level": 5},
+    {"name": "IT-Strategieberatung & Architektur", "level": 5},
+    {"name": "Digitale Zusammenarbeit und Kollaboration", "level": 5},
+    {"name": "Digitalisierung von Business Prozessen", "level": 3},
+    {"name": "Auswahl und Steuerung externer Dienstleister", "level": 4},
+    {"name": "Cloud-Infrastrukturen (Azure, O365, Hybrid)", "level": 5},
+    {"name": "Governance- und Security-Konzepte", "level": 4},
+    {"name": "Assessments bestehender IT-Infrastrukturen", "level": 3},
+    {"name": "Strategische Architektur-Bewertungen", "level": 3},
+    {"name": "Bebauungspläne (Business-IT-Alignment)", "level": 2}
+  ],
+  "Cloud & Infrastructure": [
+    {"name": "Microsoft Azure", "level": 5},
+    {"name": "Microsoft M365", "level": 5},
+    {"name": "Office 365", "level": 5},
+    {"name": "Microsoft Intune", "level": 4},
+    {"name": "SharePoint", "level": 5},
+    {"name": "Microsoft Dynamics 365", "level": 3},
+    {"name": "Microsoft Endpoint Manager", "level": 2},
+    {"name": "Cisco Meraki", "level": 3},
+    {"name": "Hybrid Cloud Architecture", "level": 3},
+    {"name": "IT-Infrastruktur-Management", "level": 3}
+  ],
+  "Softwareentwicklung": [
+    {"name": "JavaScript", "level": 4},
+    {"name": "AngularJS", "level": 3},
+    {"name": "Java", "level": 2},
+    {"name": "C#", "level": 2},
+    {"name": "VB", "level": 3},
+    {"name": "Python", "level": 4},
+    {"name": "R", "level": 1},
+    {"name": "Matlab", "level": 2},
+    {"name": "SQL Server", "level": 3},
+    {"name": "PowerPivot", "level": 4},
+    {"name": "Reporting Services", "level": 3}
+  ],
+  "Methodenkompetenzen": [
+    {"name": "Umfeldanalyse / Use Case Analyse", "level": 5},
+    {"name": "Wirtschaftlichkeitsanalyse", "level": 4},
+    {"name": "SWOT, Balanced Scorecards", "level": 3},
+    {"name": "Scrum und agiles PM", "level": 3},
+    {"name": "Projektmanagement (Wasserfall)", "level": 3},
+    {"name": "Business Model Canvas", "level": 4},
+    {"name": "BCG-Matrix", "level": 3},
+    {"name": "Rollout- und Migrationskonzepte", "level": 4},
+    {"name": "Anforderungsmanagement", "level": 5},
+    {"name": "Stakeholder Management", "level": 5},
+    {"name": "Reifegrad-Analysen", "level": 3},
+    {"name": "GAP-Analysen", "level": 3},
+    {"name": "Risiko- und Impact-Analysen", "level": 4}
+  ],
+  "Security & Governance": [
+    {"name": "Information Security Governance", "level": 4},
+    {"name": "Cloud-Sicherheit", "level": 3},
+    {"name": "Zero Trust Architecture", "level": 3},
+    {"name": "Infrastruktursicherheit", "level": 3},
+    {"name": "Microsoft Defender for Endpoint", "level": 4},
+    {"name": "Compliance & Governance", "level": 4},
+    {"name": "ISMS (Informationssicherheit)", "level": 4},
+    {"name": "Regulatorische Compliance", "level": 4},
+    {"name": "DSGVO", "level": 4}
+  ],
+  "Branchenkenntnisse": [
+    {"name": "Öffentlicher Sektor", "level": 3},
+    {"name": "Recht / Legal Tech", "level": 4},
+    {"name": "Banken", "level": 5},
+    {"name": "Versicherungen", "level": 3},
+    {"name": "Produktion / Manufacturing", "level": 4},
+    {"name": "Energie", "level": 4},
+    {"name": "Healthcare / Medizin", "level": 5},
+    {"name": "Pharma", "level": 5}
+  ],
+  "Leadership & Soft Skills": [
+    {"name": "Moderation", "level": 3},
+    {"name": "Präsentation", "level": 5},
+    {"name": "Konfliktmanagement", "level": 4},
+    {"name": "Dienstleistersteuerung", "level": 4},
+    {"name": "Training & Coaching", "level": 2},
+    {"name": "Koordination internationaler Teams", "level": 3},
+    {"name": "PMO-Aktivitäten", "level": 4}
+  ],
+  "Business Development": [
+    {"name": "Fachliche Qualifizierung von Kundenanfragen", "level": 5},
+    {"name": "Angebotsprozesse", "level": 3},
+    {"name": "Ausschreibungsbearbeitung", "level": 2},
+    {"name": "Angebotspräsentationen", "level": 4},
+    {"name": "Budgetplanung", "level": 4},
+    {"name": "Business Cases", "level": 5},
+    {"name": "Produktlebenszyklen-Management", "level": 3},
+    {"name": "Marketing- und Vertriebsunterlagen", "level": 4}
+  ],
+  "Innovation & KI": [
+    {"name": "AWS Generative AI", "level": 2},
+    {"name": "AWS AI Tools", "level": 2},
+    {"name": "Machine Learning", "level": 3},
+    {"name": "KI-basierte Webanwendungen", "level": 4},
+    {"name": "Automatisierte Konzeptdokument-Generierung", "level": 4},
+    {"name": "KI im M365- und Cloud-Umfeld", "level": 5},
+    {"name": "Compliance-Anforderungen für KI", "level": 4}
+  ],
+  "Business Intelligence & Analytics": [
+    {"name": "MS Business Intelligence", "level": 4},
+    {"name": "Microsoft SQL Server", "level": 3},
+    {"name": "Database Design and Implementation", "level": 4},
+    {"name": "Mathematical Optimization and Graph Algorithms", "level": 4},
+    {"name": "Mathematische Optimierung", "level": 4}
+  ],
+  "Management & Consulting": [
+    {"name": "Unternehmensberatung", "level": 5},
+    {"name": "Management Consulting", "level": 4},
+    {"name": "Change Management", "level": 4},
+    {"name": "Veränderungsmanagement", "level": 4},
+    {"name": "Geschäftsprozesse", "level": 5},
+    {"name": "Optimierung von Geschäftsabläufen", "level": 4},
+    {"name": "Digitale Transformation", "level": 4}
+  ]
+}

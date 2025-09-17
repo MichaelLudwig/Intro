@@ -1,0 +1,145 @@
+[
+  {
+    "company": "msg services gmbh",
+    "role": "Principal IT-Architekt",
+    "period": "Jan. 2025–heute",
+    "achievements": [
+      "Beratung zur Informationssicherheit (ISMS) der OpSec einer Investitionsbank auf Bundesebene im Rahmen einer Prüfung durch die BaFin",
+      "Entwicklung einer internen KI-basierten Webanwendung zur automatisierten Generierung fach- und themenspezifischer Konzeptdokumente",
+      "Architekturdesign und Implementierung der erforderlichen Cloud-Infrastruktur unter Berücksichtigung regulatorischer und interner Compliance-Anforderungen",
+      "Implementierung zahlreicher Showcases zum Einsatz von Künstlicher Intelligenz im M365- und Cloud-Umfeld"
+    ]
+  },
+  {
+    "company": "msg services gmbh",
+    "role": "Portfoliomanagement für IT Security und IT Management - Bereich Steuerung",
+    "period": "Jan. 2024–Feb. 2025",
+    "location": "Berlin, Deutschland",
+    "achievements": [
+      "Entwicklung und Optimierung des internen Geschäftsmodells (Profitcenter) unter Anwendung des Business Model Canvas",
+      "Steuerung der Produktlebenszyklen mittels BCG-Matrix",
+      "Budgetplanung für die Portfolios IT Security und IT Management",
+      "Unterstützung der Geschäftsführung bei strategisch wichtigen Sonderprojekten",
+      "Erstellung von Business Cases, u. a. für den 24/7 Service Desk im IT-Infrastrukturbetrieb sowie für den signifikanten Ausbau des ServiceNow-Bereichs",
+      "Ausarbeitung einer Angebotspräsentation für das strategisch wichtigste Produkt „Kubernetes-as-a-Service (KaaS), inkl. Compliance-Abdeckung der Komplettlösung"
+    ]
+  },
+  {
+    "company": "msg services gmbh",
+    "role": "Business Solution Manager; Lead IT-Architekt - Bereich Business",
+    "period": "Jan. 2023–Dez. 2023",
+    "location": "Berlin, Deutschland",
+    "skills": ["Cloud-Sicherheit", "Zero Trust"],
+    "achievements": [
+      "Fachliche Qualifizierung von Kundenanfragen und Abgleich mit dem Leistungsportfolio",
+      "Proaktives Platzieren des Leistungsportfolios bei externen Kunden sowie innerhalb der msg Gruppe",
+      "Unterstützung bei der Steuerung komplexer Angebotsprozesse",
+      "Vorqualifizierung und Mitwirkung bei der Bearbeitung großer Ausschreibungen",
+      "Durchführung von Angebotspräsentationen und Übergabe der Aufträge an das Delivery Management",
+      "Bewertung von Beratungsanfragen und Staffing geeigneter Experten"
+    ]
+  },
+  {
+    "company": "msg services gmbh",
+    "role": "Lead IT-Architekt - Abteilung IT Strategie und Architektur",
+    "period": "März 2020–Dez. 2022",
+    "location": "Berlin, Deutschland",
+    "skills": ["Information Security Governance", "Cloud-Sicherheit", "Infrastruktursicherheit", "Zero Trust"],
+    "achievements": [
+      "Koordination und Beratung bei der Cloud Application Transition (Maschinenbauer, >16000 Mitarbeiter, 200 Anwendungen, 1500 Server)",
+      "Entwicklung einer IT Gesamtarchitektur für eine Holding Gesellschaft für zukünftige M&A Vorhaben",
+      "Einführung eines modernen Arbeitsplatzes auf Basis von Microsoft Office 365 (Bank, >4000 Arbeitsplätze)",
+      "Entwicklung einer Client Strategie zum Arbeitsplatz der Zukunft (IT Dienstleister, <7500 Arbeitsplätze)",
+      "Durchführung von Assessments bestehender IT-Infrastrukturen bei Kunden",
+      "Strategische Architektur-Bewertungen inkl. Umfeld-, SWOT-, Reifegrad-, GAP- sowie Risiko- und Impact-Analysen",
+      "Definition von Handlungsspielräumen und Design von IT-Architekturszenarien auf Basis von Umfeld- und Use-Case-Analysen",
+      "Erstellung von Bebauungsplänen als Bindeglied zwischen Geschäftsprozessen und IT-/Applikationslandschaft",
+      "Durchführung von Wirtschaftlichkeitsbetrachtungen und Gesamtanalysen als Grundlage fundierter Handlungsempfehlungen"      
+    ]
+  },
+  {
+    "company": "Dierks+Company",
+    "role": "Manager IT",
+    "period": "Juli 2017–Feb. 2020",
+    "location": "Berlin",
+    "skills": ["Infrastruktursicherheit"],
+    "achievements": [
+      "Design und Implementierung einer vollständigen IT Infrastruktur auf Basis von Microsoft Azure, O365-Architektur",
+      "Realisierung der Vision einer digitalen papierlosen Kanzlei",
+      "Konzeption, Implementierung und Betrieb der gesamten IT-Architektur einer Anwaltskanzlei",
+      "Design und Implementierung des kompletten Projektlebenszyklus mit Microsoft Dynamics 365 Project Service Automation"
+    ]
+  },
+  {
+    "company": "Advanced Blockchain AG",
+    "role": "Advisor for Peaq",
+    "period": "Okt. 2018–Dez. 2018",
+    "location": "Berlin und Umgebung, Deutschland",
+    "achievements": [
+      "Advisor for graph algorithm development and visualization",
+      "peaq - A DAG Technology based Distributed Ledger Technology platform"
+    ]
+  },
+  {
+    "company": "Campana & Schott",
+    "role": "Managing Consultant",
+    "period": "2016–Juni 2017",
+    "location": "Berlin",
+    "achievements": [
+      "Koordination und Steuerung des Designs, der Implementierung, des Rollouts und der Erweiterung von Programm-Management-Cockpit-Lösungen",
+      "Nutzung agiler Methoden zur Führung des Teams aus Entwicklern und Business Consultants",
+      "Durchführung von Proof-of-Concepts für neue und innovative Technologien"
+    ]
+  },
+  {
+    "company": "Campana & Schott",
+    "role": "Senior Consultant",
+    "period": "2014–2016",
+    "location": "Berlin",
+    "achievements": [
+      "Aufbau eines globalen Marketing und Sales Programm Managements (Pharma Konzern, ca. 40.000 MA)",
+      "Entwicklung einer Roadmap zur Strategieimplementierung",
+      "Aufbau einer globalen Lernplattform sowie eines Wissens-Portals",
+      "Training und Coaching des globalen Marketing und Sales Managements"
+    ]
+  },
+  {
+    "company": "Campana & Schott",
+    "role": "Consultant",
+    "period": "2011–2014",
+    "achievements": [
+      "Aufbau eines globalen Knowledge Centers – Learning & Community Plattform",
+      "Globales Programmsteuerungs-Portal (Healthcare/Pharma)",
+      "Enterprise Program Management System (Energie - Gasturbinenwartung)",
+      "Internes Ideation-Portal (Kreuzfahrt)"
+    ]
+  },
+  {
+    "company": "Campana & Schott",
+    "role": "Student Consultant",
+    "period": "2007–2011",
+    "achievements": [
+      "Aufbau eines unternehmensweiten Innovationsportals (Healthcare - Animal Health)",
+      "Implementierung der Online-Arbeitsbereiche für Ideen sowie der Prozessvisualisierung",
+      "Design und Implementierung der Webformulare für Ideen und der zugrundeliegenden Geschäftsprozesslogik"
+    ]
+  },
+  {
+    "company": "Deutsche Rentenversicherung Bund",
+    "role": "Specialist for application development / Trainer",
+    "period": "Apr. 2006–Sept. 2006",
+    "location": "Berlin",
+    "achievements": [
+      "[Details nicht im CV-Dokument verfügbar]"
+    ]
+  },
+  {
+    "company": "Deutsche Rentenversicherung Bund",
+    "role": "Specialist for application development / Trainee",
+    "period": "Sept. 2003–März 2006",
+    "location": "Berlin",
+    "achievements": [
+      "[Details nicht im CV-Dokument verfügbar]"
+    ]
+  }
+]

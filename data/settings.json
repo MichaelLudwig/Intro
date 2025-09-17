@@ -1,0 +1,13 @@
+{
+  "name": "Michael Ludwig",
+  "claim": "KI-Architekturberatung\nIT-Governance und Complianceberatung\nIT-Strategie & Architekturberatung",
+  "location": "Berlin Metropolitan Area",
+  "email": "info@michas-labs.de",
+  "profileImage": "assets/img/profile.jpg",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/michael-ludwig-/"
+  },
+  "accentColor": "#3b82f6",
+  "language": "de",
+  "description": "Erfahrener IT-Architekt mit über 20 Jahren Beratungserfahrung. Spezialisiert auf Strategie-, Compliance- und Architektur-Beratung."
+}
