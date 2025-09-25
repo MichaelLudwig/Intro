@@ -200,8 +200,11 @@ class PortfolioApp {
     // Render project teasers (top 3)
     this.renderProjectTeasers();
     
-    // Render skill highlights
-    this.renderSkillHighlights();
+    // Render focus competency areas
+    this.renderFocusAreas();
+    
+    // Render career timeline
+    this.renderCareerTimeline();
   }
 
   renderProjectTeasers() {
@@ -222,13 +225,101 @@ class PortfolioApp {
   createProjectTeaser(project, index) {
     return `
       <article class="card project-teaser" onclick="window.location.href='projekte.html#project-${project.id || index + 1}'">
+        <span class="project-icon">${project.icon}</span>
+        <div class="project-category">${project.category}</div>
         <h3>${project.title}</h3>
-        <div class="project-role">${project.role}</div>
-        <div class="project-tech-preview">
-          ${project.tech.slice(0, 3).map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-          ${project.tech.length > 3 ? `<span class="tech-more">+${project.tech.length - 3}</span>` : ''}
+        <div class="project-meta">
+          <div class="project-role">${project.role}</div>
+          <div class="project-period">${project.period}</div>
+        </div>
+        <div class="project-technologies">
+          ${project.tech.join(' | ')}
         </div>
       </article>
+    `;
+  }
+
+  renderFocusAreas() {
+    console.log('renderFocusAreas called');
+    console.log('this.data.skills:', this.data.skills);
+    
+    if (!this.data.skills) {
+      console.warn('No skills data available');
+      return;
+    }
+
+    // Render KI Tool- und Plattform-Kompetenzen
+    const aiSkillsContainer = document.querySelector('.focus-areas .skill-category:first-child .skills-list');
+    console.log('aiSkillsContainer:', aiSkillsContainer);
+    console.log('KI Skills:', this.data.skills['KI Tool- und Plattform-Kompetenzen']);
+    
+    if (aiSkillsContainer && this.data.skills['KI Tool- und Plattform-Kompetenzen']) {
+      aiSkillsContainer.innerHTML = this.data.skills['KI Tool- und Plattform-Kompetenzen'].map(skill => `
+        <div class="skill-item">
+          <span class="skill-name">${skill.name}</span>
+          <div class="skill-level">
+            ${this.createSkillDots(skill.level)}
+          </div>
+        </div>
+      `).join('');
+      console.log('AI Skills rendered');
+    } else {
+      console.warn('AI skills container or data not found');
+    }
+
+    // Render Compliance & Governance
+    const complianceSkillsContainer = document.querySelector('.focus-areas .skill-category:last-child .skills-list');
+    console.log('complianceSkillsContainer:', complianceSkillsContainer);
+    console.log('Compliance Skills:', this.data.skills['Compliance & Governance']);
+    
+    if (complianceSkillsContainer && this.data.skills['Compliance & Governance']) {
+      complianceSkillsContainer.innerHTML = this.data.skills['Compliance & Governance'].map(skill => `
+        <div class="skill-item">
+          <span class="skill-name">${skill.name}</span>
+          <div class="skill-level">
+            ${this.createSkillDots(skill.level)}
+          </div>
+        </div>
+      `).join('');
+      console.log('Compliance Skills rendered');
+    } else {
+      console.warn('Compliance skills container or data not found');
+    }
+  }
+
+  renderCareerTimeline() {
+    const container = document.querySelector('.career-timeline');
+    if (!container || !this.data.career) return;
+
+    // Group career data by company
+    const companiesMap = new Map();
+    this.data.career.forEach(position => {
+      if (!companiesMap.has(position.company)) {
+        companiesMap.set(position.company, []);
+      }
+      companiesMap.get(position.company).push(position);
+    });
+
+    // Convert to array and limit to first 5 companies for homepage (including Campana & Schott)
+    const companies = Array.from(companiesMap.entries()).slice(0, 5);
+    
+    container.innerHTML = `
+      <div class="career-timeline-line"></div>
+      <div class="career-companies">
+        ${companies.map(([companyName, positions]) => `
+          <div class="career-company-group">
+            <div class="career-company-block">
+              <h3 class="career-company-name">${companyName}</h3>
+              ${positions.map(position => `
+                <div class="career-position">
+                  <div class="career-period">${position.period}</div>
+                  <div class="career-role">${position.role}</div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `).join('')}
+      </div>
     `;
   }
 
@@ -396,18 +487,17 @@ class PortfolioApp {
         <div class="project-category">${project.category}</div>
         <h3>${project.title}</h3>
         <div class="project-meta">
-          <span class="project-role">${project.role}</span>
-          <span class="project-period">${project.period}</span>
+          <div class="project-role">${project.role}</div>
+          <div class="project-period">${project.period}</div>
         </div>
-        <p>${project.summary}</p>
+        <div class="project-summary">${project.summary}</div>
         ${project.highlights ? `
           <ul class="project-highlights">
-            ${project.highlights.slice(0, 3).map(highlight => `<li>${highlight}</li>`).join('')}
+            ${project.highlights.map(highlight => `<li>${highlight}</li>`).join('')}
           </ul>
         ` : ''}
-        <div class="tags">
-          ${project.tech.slice(0, 4).map(tech => `<span class="tag tag-secondary">${tech}</span>`).join('')}
-          ${project.tech.length > 4 ? `<span class="tag tag-more">+${project.tech.length - 4}</span>` : ''}
+        <div class="project-technologies">
+          ${project.tech.join(' | ')}
         </div>
       </article>
     `;
@@ -434,15 +524,24 @@ class PortfolioApp {
     }
   }
 
-  filterProjects(category) {
+  filterProjects(filterTag) {
     const projectCards = document.querySelectorAll('.project-card');
     
-    projectCards.forEach(card => {
-      if (category === 'ALL' || card.dataset.category === category) {
+    projectCards.forEach((card, index) => {
+      const project = this.data.projects[index];
+      
+      if (filterTag === 'ALL') {
         card.style.display = 'flex';
         card.style.animation = 'fadeIn 0.5s ease-in';
       } else {
-        card.style.display = 'none';
+        // Check if project has the filter tag
+        const hasTag = project.tags && project.tags.includes(filterTag);
+        if (hasTag) {
+          card.style.display = 'flex';
+          card.style.animation = 'fadeIn 0.5s ease-in';
+        } else {
+          card.style.display = 'none';
+        }
       }
     });
   }
@@ -476,20 +575,41 @@ class PortfolioApp {
     const container = document.querySelector('.career-timeline');
     if (!container || !this.data.career) return;
 
-    container.innerHTML = this.data.career.map(position => `
-      <div class="timeline-item">
-        <div class="timeline-header">
-          <div>
-            <h3 class="timeline-company">${position.company}</h3>
-            <p class="timeline-role">${position.role}</p>
+    // Group career data by company (same as homepage but for all entries)
+    const companiesMap = new Map();
+    this.data.career.forEach(position => {
+      if (!companiesMap.has(position.company)) {
+        companiesMap.set(position.company, []);
+      }
+      companiesMap.get(position.company).push(position);
+    });
+
+    // Convert to array - show ALL companies for career page
+    const companies = Array.from(companiesMap.entries());
+    
+    container.innerHTML = `
+      <div class="career-timeline-line"></div>
+      <div class="career-companies">
+        ${companies.map(([companyName, positions]) => `
+          <div class="career-company-group">
+            <div class="career-company-block career-company-block-full">
+              <h3 class="career-company-name">${companyName}</h3>
+              ${positions.map(position => `
+                <div class="career-position">
+                  <div class="career-period">${position.period}</div>
+                  <div class="career-role">${position.role}</div>
+                  ${position.achievements && position.achievements.length > 0 ? `
+                    <div class="career-achievements">
+                      ${position.achievements.map(achievement => `<div class="career-achievement">${achievement}</div>`).join('')}
+                    </div>
+                  ` : ''}
+                </div>
+              `).join('')}
+            </div>
           </div>
-          <span class="timeline-period">${position.period}</span>
-        </div>
-        <ul class="timeline-achievements">
-          ${position.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-        </ul>
+        `).join('')}
       </div>
-    `).join('');
+    `;
   }
 
   // Education Page

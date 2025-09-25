@@ -1,6 +1,54 @@
 [
   {
-    "id": 1,
+    "title": "Aufbau einer OpSec Organisation bei einer Investitionsbank",
+    "role": "IT-Sicherheitsberater",
+    "period": "2025",
+    "summary": "Definition und Dokumentation der Zuständigkeiten und Abläufe in der Operativen Informationssicherheit (OpSec) für ein wirksames IT-Sicherheitsmanagement",
+    "client": "Investitionsbank",
+    "highlights": [
+      "Planung und Management eines Umsetzungsprojekts zur Abarbeitung von festgestellten Mängeln in der Informationssicherheit im Zuge einer Bankenaufsichtsprüfung",
+      "Analyse der geltenden regulatorischen und organisatorischen Vorgaben aus DORA, BSI, MaRisk, BAIT sowie Organisationsanweisungen, Sicherheits-Richtlinien und -Leitlinien der Bank",
+      "Erstellung von Arbeitsanweisungen für die Operativen Informationssicherheit zu den Handlungsfeldern Protokollierung, Sicherheitsüberwachung, Schwachstellenmanagement und Penetrationstests",
+      "Begleitung der Einführung des Microsoft Sentinel SIEM Systems und Steuerung und Überwachung des Externen Dienstleisters",
+      "Erarbeitung der vertraglichen Rahmenbedingungen (Leistungsscheine) zur Bereitstellung der SIEM, SOC und Schwachstellenmanagement Services"
+    ],
+    "tech": ["M365", "Azure", "Microsoft Sentinel"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-opsec-bank.jpg",
+    "tags": ["Compliance", "IT Architektur", "IT Strategie"],
+    "category": "IT SICHERHEIT",
+    "icon": "🔒",
+    "featured": 1
+  },
+  {
+    "title": "Entwicklung und Einführung eines KI-gestützten IT-Konzept Designers",
+    "role": "Lead Architect / Projektleiter / Compliance-Verantwortlicher",
+    "period": "2024",
+    "summary": "Entwicklung einer Webapplikation zur Erstellung von IT-Konzeptdokumenten auf Basis generativer KI",
+    "client": "IT-Dienstleister (<10.000 Mitarbeiter)",
+    "highlights": [
+      "Entwurf und Umsetzung einer abgesicherten und skalierbaren Azure Cloud-Architektur",
+      "Entwicklung eines Compliance-Konzepts inkl. Umsetzung der DSGVO-Grundprinzipien und Einhaltung des EU AI Act",
+      "Durchführung einer Risikoanalyse nach EU AI Act",
+      "Integration des Azure OpenAI Service (GPT-4o-mini) mit Content-Filter, Netzwerksicherheit und Rate Limiting",
+      "Aufbau einer Azure DevOps CI/CD-Pipeline mit getrennten Umgebungen",
+      "Erstellung eines Betriebshandbuchs mit Fokus auf Monitoring, Skalierung, Hochverfügbarkeit und Disaster Recovery"
+    ],
+    "tech": ["Azure OpenAI Service", "Azure Web App Service", "Azure VNet", "Azure DevOps", "Microsoft Entra ID", "GPT-4o-mini"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-ai-concept-designer.jpg",
+    "tags": ["KI", "Compliance", "IT Architektur"],
+    "category": "KI ARCHITEKTUR",
+    "icon": "🤖",
+    "featured": 2
+  },
+  {
     "title": "Cloud Application Transition",
     "role": "Architekt / Technologie Experte",
     "period": "09/2021–06/2022",
@@ -20,12 +68,11 @@
       "live": ""
     },
     "cover": "assets/img/proj-cloud-transition.jpg",
-    "tags": ["Cloud", "Migration", "Produktion"],
+    "tags": ["IT Architektur"],
     "category": "CLOUD MIGRATION",
     "icon": "☁️"
   },
   {
-    "id": 2,
     "title": "Aufbau einer skalierbaren Prozess- und IT-Landschaft",
     "role": "IT Architekt",
     "period": "2021",
@@ -43,13 +90,12 @@
       "live": ""
     },
     "cover": "assets/img/proj-scalable-architecture.jpg",
-    "tags": ["Architecture", "M&A", "Produktion"],
+    "tags": ["IT Architektur", "IT Strategie"],
     "category": "IT ARCHITEKTUR",
     "icon": "🏗️"
   },
   {
-    "id": 3,
-    "title": "Microsoft O365 Architektur Design und Rollout",
+    "title": "Microsoft M365 Architektur Design und Rollout",
     "role": "Architekt / Technologie Experte",
     "period": "04/2020–04/2022",
     "summary": "Einführung eines modernen Arbeitsplatzes auf Basis von Microsoft Office 365",
@@ -68,13 +114,11 @@
       "live": ""
     },
     "cover": "assets/img/proj-m365-rollout.jpg",
-    "tags": ["Cloud", "Modern Workplace", "Finanzbranche"],
+    "tags": ["Digital Workplace", "Compliance", "IT Architektur", "IT Strategie"],
     "category": "DIGITAL WORKPLACE",
-    "icon": "💼",
-    "featured": 3
+    "icon": "💼"
   },
   {
-    "id": 4,
     "title": "Arbeitsplatz der Zukunft",
     "role": "Architekt",
     "period": "2020",
@@ -93,13 +137,11 @@
       "live": ""
     },
     "cover": "assets/img/proj-future-workplace.jpg",
-    "tags": ["Strategy", "Modern Workplace", "Versicherungen"],
+    "tags": ["Digital Workplace", "IT Architektur", "IT Strategie"],
     "category": "IT STRATEGIE",
-    "icon": "🎯",
-    "featured": 2
+    "icon": "🎯"
   },
   {
-    "id": 5,
     "title": "Gründung einer digitalisierten Anwaltskanzlei",
     "role": "Architekt",
     "period": "2017–2019",
@@ -119,13 +161,12 @@
       "live": ""
     },
     "cover": "assets/img/proj-digital-law-firm.jpg",
-    "tags": ["Digital Transformation", "Legal Tech", "Recht"],
+    "tags": ["Digital Workplace", "Compliance", "IT Architektur", "IT Strategie"],
     "category": "DIGITAL WORKPLACE",
     "icon": "💼",
-    "featured": 1
+    "featured": 3
   },
   {
-    "id": 6,
     "title": "Customer Facing Excellence Plattform",
     "role": "Architekt, Technische Projektleitung",
     "period": "2014–2017",
@@ -148,8 +189,185 @@
       "live": ""
     },
     "cover": "assets/img/proj-pharma-platform.jpg",
-    "tags": ["Global Platform", "Pharma", "Marketing"],
+    "tags": ["Business Intelligence", "Digital Workplace"],
     "category": "BUSINESS INTELLIGENCE",
     "icon": "📊"
+  },
+  {
+    "title": "Agile Implementierung von Programm-Management-Cockpit-Lösungen",
+    "role": "Technische Projektleitung",
+    "period": "2016",
+    "summary": "Koordination und Steuerung des Designs, der Implementierung, des Rollouts und der Erweiterung von Programm-Management-Cockpit-Lösungen in verschiedenen globalen Marketingabteilungen",
+    "client": "Pharma Konzern",
+    "highlights": [
+      "Koordination und Steuerung des Designs, der Implementierung, des Rollouts und der Erweiterung von Programm-Management-Cockpit-Lösungen in verschiedenen globalen Marketingabteilungen",
+      "Nutzung agiler Methoden zur Führung des Teams aus Entwicklern und Business Consultants",
+      "Durchführung von Proof-of-Concepts für neue und innovative Technologien, die in den bereitgestellten Lösungen verwendet wurden"
+    ],
+    "tech": ["Office 365", "SharePoint 2013"],
+    "methods": ["Scrum", "Agile Methoden"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-agile-cockpit.jpg",
+    "tags": ["Business Intelligence"],
+    "category": "PROGRAMM MANAGEMENT",
+    "icon": "🚀"
+  },
+  {
+    "title": "Work-Management- und Kollaborationslösung",
+    "role": "Technische Projektleitung",
+    "period": "2015/2016",
+    "summary": "Entwicklung einer Roadmap zur Strategieimplementierung für globales Marketing und Sales",
+    "client": "Pharma Konzern - Global Marketing und Sales",
+    "highlights": [
+      "Entwicklung einer Roadmap zur Strategieimplementierung",
+      "Identifikation und Analyse der Geschäftsanforderungen",
+      "Analyse der bestehenden IT-Infrastruktur und des Serviceportfolios für Work-Management- und Kollaborationsszenarien",
+      "Design der Informations- und technischen Infrastruktur",
+      "Steuerung des Implementierungsteams und Integration der Lösung in die bestehende Web-Umgebung"
+    ],
+    "tech": ["Office 365", "SharePoint 2013"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-work-collaboration.jpg",
+    "tags": ["Digital Workplace"],
+    "category": "DIGITAL WORKPLACE",
+    "icon": "🤝"
+  },
+  {
+    "title": "Aufbau eines globalen Knowledge Centers – Learning & Community Plattform",
+    "role": "Technische Projektleitung",
+    "period": "2014/2015",
+    "summary": "Aufbau einer globalen Lernplattform und Community für Global Marketing und Sales",
+    "client": "Healthcare / Pharma - Global Marketing und Sales",
+    "highlights": [
+      "Erhebung und Analyse der Geschäftsanforderungen und Aufbau der Projektorganisation",
+      "Auswahl des externen Entwicklerteams sowie eines externen Learning-Anbieters",
+      "Design der technischen Infrastruktur, Auswahl eines Drittanbieter-LMS und Management der Integration in die Webumgebung",
+      "Steuerung des externen Entwicklerteams zum Aufbau eines Online Knowledge Centers"
+    ],
+    "tech": ["SharePoint 2013", "Learning Management System"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-knowledge-center.jpg",
+    "tags": ["Digital Workplace"],
+    "category": "WISSENSMANAGEMENT",
+    "icon": "📚"
+  },
+  {
+    "title": "Globales Programmsteuerungs-Portal",
+    "role": "Technische Projektleitung",
+    "period": "2014",
+    "summary": "Aufbau eines globalen Programm-Management-Portals sowie einer Business-Intelligence-Lösung für Healthcare/Pharma",
+    "client": "Healthcare / Pharma - Global Marketing und Sales",
+    "highlights": [
+      "Erhebung und Analyse der Geschäftsanforderungen und Design eines Programm-Management-Portals sowie einer Business-Intelligence-Lösung",
+      "Analyse der Enterprise-IT-Infrastruktur, Design der technischen Architektur und Abstimmung mit dem internen IT-Service-Provider",
+      "Entwicklung der Lösung gemeinsam mit Pilotländern und Erstellung eines Rollout- und Migrationskonzepts",
+      "Training und Coaching des globalen Managements, der Regionalmanager und Projektleiter in den Ländern",
+      "Durchführung von PMO-Aktivitäten und Übergabe der PM-Aktivitäten an das Business",
+      "Design und Umsetzung von grafischen Online-Projekt- und Programmberichten, Bereitstellung von übergreifenden Management-Dashboards und Präsentationen"
+    ],
+    "tech": ["SharePoint 2010", "InfoPath 2010", "SQL Reporting Services", "Excel PowerPivot"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-global-program-portal.jpg",
+    "tags": ["Business Intelligence"],
+    "category": "BUSINESS INTELLIGENCE",
+    "icon": "🌍"
+  },
+  {
+    "title": "Internes Ideation-Portal",
+    "role": "Technische Projektleitung",
+    "period": "2013",
+    "summary": "Aufbau eines Innovationsportals mit Portfolio-Visualisierungslösung für die Kreuzfahrtbranche",
+    "client": "Kreuzfahrt Unternehmen",
+    "highlights": [
+      "Erhebung und Analyse der Geschäftsanforderungen und Design eines Innovationsportals inkl. Portfolio-Visualisierungslösung",
+      "Koordination der Implementierungsarbeiten für Datenerfassung, Prozessautomatisierung und Portfolio-Visualisierung",
+      "Unterstützung des internen IT-Service-Providers bei der Aktivierung und Konfiguration der erforderlichen SharePoint Service Applications"
+    ],
+    "tech": ["SharePoint 2010", "InfoPath 2010", "SQL Reporting Services"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-ideation-portal.jpg",
+    "tags": ["Digital Workplace"],
+    "category": "INNOVATION",
+    "icon": "💡"
+  },
+  {
+    "title": "Enterprise Program Management System",
+    "role": "Technische Projektleitung",
+    "period": "2012/2013",
+    "summary": "Aufbau eines Enterprise Program Management Systems für langfristige Wartungsprogramme von Gasturbinen",
+    "client": "Energie Unternehmen - Gasturbinenwartung",
+    "highlights": [
+      "Definition und Abstimmung aller Aktivitäten zur Durchführung von Gasturbinenwartungen, inklusive zugeordneter Rollen, Aufwand, Dauer und Abhängigkeiten",
+      "Analyse der Geschäftsanforderungen und Erstellung von Spezifikationsdokumenten zur Beauftragung des internen IT-Service-Providers",
+      "Unterstützung des Geschäftsbereichs bei der Steuerung des IT-Providers, der Abwicklung von Claims und Change Requests sowie beim Testing der Lösung",
+      "Entwicklung und Durchführung von Tool- und Prozess-Trainings/Coachings für globale Programm- und Projektmanager",
+      "Entwicklung einer Benutzeroberfläche zur Verwaltung der Prozessinformationen"
+    ],
+    "tech": ["Project Server 2010", "SQL Server 2008 R2", "Access 2010"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-enterprise-program.jpg",
+    "tags": ["Business Intelligence"],
+    "category": "PROGRAMM MANAGEMENT",
+    "icon": "⚡"
+  },
+  {
+    "title": "Projektportfolio-Simulationsportal",
+    "role": "Projektteam",
+    "period": "2011",
+    "summary": "Entwicklung eines Projektportfolio-Simulationsportals für Global Clinical Development",
+    "client": "Healthcare - Global Clinical Development",
+    "highlights": [
+      "Definition, Übersetzung und Optimierung der Prognosealgorithmen gemeinsam mit den Fachbereichen",
+      "Übersetzung und Abstimmung von Geschäftsanforderungen und Änderungsanträgen zwischen Business und den internen Datenbank- und SharePoint-Entwicklungsteams"
+    ],
+    "tech": ["SharePoint Server 2007", "SQL Server 2008 R2", "Excel PowerPivot"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-portfolio-simulation.jpg",
+    "tags": ["Business Intelligence"],
+    "category": "BUSINESS INTELLIGENCE",
+    "icon": "📈"
+  },
+  {
+    "title": "Aufbau eines unternehmensweiten Innovationsportals",
+    "role": "Projektteam",
+    "period": "2009",
+    "summary": "Aufbau eines unternehmensweiten Innovationsportals mit Portfolio-Visualisierungslösung für Animal Health",
+    "client": "Healthcare - Animal Health",
+    "highlights": [
+      "Ermittlung und Analyse der Geschäftsanforderungen sowie Konzeption eines Innovationsportals mit Portfolio-Visualisierungslösung",
+      "Implementierung der Online-Arbeitsbereiche für Ideen sowie der Prozessvisualisierung",
+      "Design und Implementierung der Webformulare für Ideen und der zugrundeliegenden Geschäftsprozesslogik",
+      "Durchführung und Dokumentation von Feature- und Use-Case-Tests"
+    ],
+    "tech": ["SharePoint Server 2007", "InfoPath 2007", "SQL Server 2008"],
+    "links": {
+      "repo": "",
+      "live": ""
+    },
+    "cover": "assets/img/proj-innovation-portal.jpg",
+    "tags": ["Digital Workplace"],
+    "category": "INNOVATION",
+    "icon": "🔬"
   }
 ]

@@ -1,8 +1,18 @@
 [
   {
+    "company": "Freelancer",
+    "role": "KI-Architekt & Compliance Berater",
+    "period": "2025–heute",
+    "achievements": [
+      "Beratung zu KI-Architektur und Compliance-Anforderungen",
+      "Entwicklung von KI-basierten Lösungen unter Berücksichtigung regulatorischer Vorgaben",
+      "Unterstützung bei der Implementierung von EU AI Act und DSGVO-konformen KI-Systemen"
+    ]
+  },
+  {
     "company": "msg services gmbh",
     "role": "Principal IT-Architekt",
-    "period": "Jan. 2025–heute",
+    "period": "2025",
     "achievements": [
       "Beratung zur Informationssicherheit (ISMS) der OpSec einer Investitionsbank auf Bundesebene im Rahmen einer Prüfung durch die BaFin",
       "Entwicklung einer internen KI-basierten Webanwendung zur automatisierten Generierung fach- und themenspezifischer Konzeptdokumente",
@@ -13,7 +23,7 @@
   {
     "company": "msg services gmbh",
     "role": "Portfoliomanagement für IT Security und IT Management - Bereich Steuerung",
-    "period": "Jan. 2024–Feb. 2025",
+    "period": "2024",
     "location": "Berlin, Deutschland",
     "achievements": [
       "Entwicklung und Optimierung des internen Geschäftsmodells (Profitcenter) unter Anwendung des Business Model Canvas",
@@ -27,7 +37,7 @@
   {
     "company": "msg services gmbh",
     "role": "Business Solution Manager; Lead IT-Architekt - Bereich Business",
-    "period": "Jan. 2023–Dez. 2023",
+    "period": "2023",
     "location": "Berlin, Deutschland",
     "skills": ["Cloud-Sicherheit", "Zero Trust"],
     "achievements": [
@@ -42,7 +52,7 @@
   {
     "company": "msg services gmbh",
     "role": "Lead IT-Architekt - Abteilung IT Strategie und Architektur",
-    "period": "März 2020–Dez. 2022",
+    "period": "2020-2022",
     "location": "Berlin, Deutschland",
     "skills": ["Information Security Governance", "Cloud-Sicherheit", "Infrastruktursicherheit", "Zero Trust"],
     "achievements": [
@@ -59,8 +69,8 @@
   },
   {
     "company": "Dierks+Company",
-    "role": "Manager IT",
-    "period": "Juli 2017–Feb. 2020",
+    "role": "Manager IT - Enterprise IT Architect für Leagal Pharma Startup",
+    "period": "2017-2020",
     "location": "Berlin",
     "skills": ["Infrastruktursicherheit"],
     "achievements": [
@@ -73,7 +83,7 @@
   {
     "company": "Advanced Blockchain AG",
     "role": "Advisor for Peaq",
-    "period": "Okt. 2018–Dez. 2018",
+    "period": "2018",
     "location": "Berlin und Umgebung, Deutschland",
     "achievements": [
       "Advisor for graph algorithm development and visualization",
@@ -82,8 +92,8 @@
   },
   {
     "company": "Campana & Schott",
-    "role": "Managing Consultant",
-    "period": "2016–Juni 2017",
+    "role": "Managing Consultant - Global SharePoint Enterprise Solutions",
+    "period": "2017",
     "location": "Berlin",
     "achievements": [
       "Koordination und Steuerung des Designs, der Implementierung, des Rollouts und der Erweiterung von Programm-Management-Cockpit-Lösungen",
@@ -93,7 +103,7 @@
   },
   {
     "company": "Campana & Schott",
-    "role": "Senior Consultant",
+    "role": "Senior Consultant - SharePoint und Business Intelligence Solutions",
     "period": "2014–2016",
     "location": "Berlin",
     "achievements": [
@@ -105,7 +115,7 @@
   },
   {
     "company": "Campana & Schott",
-    "role": "Consultant",
+    "role": "Consultant - SharePoint und Project Server Architekt",
     "period": "2011–2014",
     "achievements": [
       "Aufbau eines globalen Knowledge Centers – Learning & Community Plattform",
@@ -116,7 +126,7 @@
   },
   {
     "company": "Campana & Schott",
-    "role": "Student Consultant",
+    "role": "Student Consultant - Schulung & Coaching SharePoint und Project Server",
     "period": "2007–2011",
     "achievements": [
       "Aufbau eines unternehmensweiten Innovationsportals (Healthcare - Animal Health)",
@@ -126,20 +136,20 @@
   },
   {
     "company": "Deutsche Rentenversicherung Bund",
-    "role": "Specialist for application development / Trainer",
-    "period": "Apr. 2006–Sept. 2006",
+    "role": "Ausbilder",
+    "period": "2006",
     "location": "Berlin",
     "achievements": [
-      "[Details nicht im CV-Dokument verfügbar]"
+      "Ausbilder für angehende Fachinformatiker für Anwendungsentwicklung"
     ]
   },
   {
     "company": "Deutsche Rentenversicherung Bund",
-    "role": "Specialist for application development / Trainee",
-    "period": "Sept. 2003–März 2006",
+    "role": "Ausbildung zum Fachinformatiker für Anwendungsentwicklung",
+    "period": "2003–2006",
     "location": "Berlin",
     "achievements": [
-      "[Details nicht im CV-Dokument verfügbar]"
+      "Auszubildender Fachinformatiker für Anwendungsentwicklung"
     ]
   }
 ]

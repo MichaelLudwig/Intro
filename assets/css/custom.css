@@ -168,6 +168,20 @@
   margin-top: var(--spacing-xl);
 }
 
+/* Focus Areas - Two columns side by side on homepage */
+.skills-grid.focus-areas {
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xl);
+}
+
+/* Responsive for focus areas */
+@media (max-width: 768px) {
+  .skills-grid.focus-areas {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+}
+
 .skill-category {
   background: var(--surface);
   border-radius: var(--radius-lg);
@@ -339,6 +353,257 @@
 }
 
 /* ==========================================================================
+   AUSZEICHNUNGEN SECTION
+   ========================================================================== */
+
+.awards-grid {
+  margin-top: var(--spacing-xl);
+}
+
+.award-card {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  border: none;
+  border-radius: var(--radius-xl);
+  background: var(--background);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.award-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+}
+
+.award-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+.award-icon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-lg);
+  display: block;
+}
+
+.award-card h3 {
+  color: var(--primary-color);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+}
+
+.award-subtitle {
+  color: var(--accent-color);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--spacing-lg);
+}
+
+.award-description {
+  color: var(--text-color);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-md);
+}
+
+.award-note {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* Responsive für Awards */
+@media (max-width: 768px) {
+  .award-card {
+    padding: var(--spacing-xl);
+    text-align: left;
+  }
+  
+  .award-icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-md);
+  }
+}
+
+/* ==========================================================================
+   KARRIERE TIMELINE
+   ========================================================================== */
+
+.career-timeline {
+  position: relative;
+  margin: var(--spacing-2xl) 0;
+  display: flex;
+  gap: var(--spacing-2xl);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.career-timeline-line {
+  position: relative;
+  width: 4px;
+  background: linear-gradient(180deg, var(--accent-color) 0%, var(--primary-color) 100%);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.career-companies {
+  flex: 1;
+}
+
+.career-company-group {
+  position: relative;
+  margin-bottom: var(--spacing-lg);
+}
+
+.career-company-block {
+  position: relative;
+  background: var(--background);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+
+.career-company-block:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.career-company-group::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: calc(-2rem - 33px);
+  width: 24px;
+  height: 24px;
+  background: white;
+  border: 5px solid var(--accent-color);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.career-company-name {
+  color: var(--primary-color);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xs);
+  text-align: center;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 2px;
+}
+
+.career-position {
+  margin-bottom: var(--spacing-xs);
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.career-position:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.career-period {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  margin-bottom: 2px;
+}
+
+.career-role {
+  color: var(--text-color);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+/* Career role on career page should be bold */
+.career-company-block-full .career-role {
+  font-weight: 500;
+}
+
+/* Career Page - Extended Styles for Full Career Display */
+.career-company-block-full {
+  padding: var(--spacing-xl);
+}
+
+.career-achievements {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--border-color);
+  margin-bottom: var(--spacing-lg);
+}
+
+.career-achievement {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  margin-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-md);
+  position: relative;
+}
+
+.career-achievement:last-child {
+  margin-bottom: var(--spacing-md);
+}
+
+.career-achievement::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Remove bullet points as requested */
+.career-achievement::before {
+  display: none;
+}
+
+.career-achievement {
+  padding-left: 0;
+}
+
+/* Responsive für Timeline */
+@media (max-width: 768px) {
+  .career-timeline {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+  
+  .career-timeline-line {
+    height: 4px;
+    width: 100%;
+  }
+  
+  .career-company-group::before {
+    display: none;
+  }
+  
+  .career-company-block-full {
+    padding: var(--spacing-lg);
+  }
+  
+  .career-achievement {
+    font-size: var(--font-size-xs);
+    margin-bottom: var(--spacing-xs);
+  }
+}
+
+/* ==========================================================================
    BUTTONS - ORANGE-BLUE DESIGN
    ========================================================================== */
 
@@ -480,11 +745,24 @@
 
 .project-meta {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   margin-bottom: var(--spacing-md);
   font-size: var(--font-size-sm);
   color: var(--text-muted);
+}
+
+.project-role {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  margin-bottom: var(--spacing-xs);
+}
+
+.project-period {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
 }
 
 .project-card h3 {
@@ -495,13 +773,51 @@
   line-height: 1.3;
 }
 
+.project-summary {
+  color: var(--primary-color);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  margin-bottom: var(--spacing-md);
+  line-height: 1.4;
+}
+
+/* Project Highlights */
+.project-highlights {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-lg);
+  color: var(--text-muted);
+}
+
+.project-highlights li {
+  font-size: var(--font-size-sm);
+  line-height: 1.4;
+  margin-bottom: var(--spacing-xs);
+  color: var(--text-muted);
+}
+
+.project-highlights li:last-child {
+  margin-bottom: 0;
+}
+
 /* Project Teasers (Homepage) */
 .project-teaser {
   cursor: pointer;
   transition: var(--transition-normal);
-  min-height: 240px;
+  min-height: 280px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-teaser::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
 }
 
 .project-teaser:hover {
@@ -518,22 +834,58 @@
   flex-shrink: 0;
 }
 
-.project-role {
+.project-teaser .project-icon {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-md);
+  display: block;
+}
+
+.project-teaser .project-category {
+  background: var(--accent-color);
+  color: white;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: 50px;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-md);
+  display: inline-block;
+  width: fit-content;
+}
+
+.project-teaser .project-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-sm);
   color: var(--text-muted);
+}
+
+.project-teaser .project-role {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  margin-bottom: var(--spacing-xs);
+}
+
+.project-teaser .project-period {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+}
+
+.project-teaser .project-technologies {
+  color: var(--primary-color);
   font-size: var(--font-size-xs);
   font-weight: 500;
-  margin-bottom: var(--spacing-lg);
-  flex-shrink: 0;
-}
-
-
-.project-tech-preview {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--spacing-xs);
   margin-top: auto;
   padding-top: var(--spacing-md);
+  line-height: 1.4;
 }
+
+
 
 .tech-tag {
   background: rgba(30, 58, 138, 0.1);
@@ -551,6 +903,16 @@
   border-radius: var(--radius-sm);
   font-size: var(--font-size-xs);
   font-weight: 600;
+}
+
+/* Project Technologies - with separators */
+.project-technologies {
+  color: var(--primary-color);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  margin-top: auto;
+  padding-top: var(--spacing-md);
+  line-height: 1.4;
 }
 
 /* ==========================================================================
@@ -979,7 +1341,8 @@ p {
 }
 
 .grid-2 {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
 }
 
 .grid-3 {
@@ -988,6 +1351,12 @@ p {
 }
 
 /* Responsive für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 1024px) {
   .grid-3 {
     grid-template-columns: repeat(2, 1fr);
