@@ -614,31 +614,44 @@ class PortfolioApp {
 
   // Education Page
   renderEducationPage() {
-    const container = document.querySelector('.education-list');
+    const container = document.querySelector('.education-timeline');
     if (!container || !this.data.education) return;
 
-    // Group by type
-    const grouped = this.data.education.reduce((acc, item) => {
-      if (!acc[item.type]) acc[item.type] = [];
-      acc[item.type].push(item);
-      return acc;
-    }, {});
+    // Group education data by institution (similar to career page)
+    const institutionsMap = new Map();
+    this.data.education.forEach(edu => {
+      if (!institutionsMap.has(edu.institution)) {
+        institutionsMap.set(edu.institution, []);
+      }
+      institutionsMap.get(edu.institution).push(edu);
+    });
 
-    container.innerHTML = Object.entries(grouped).map(([type, items]) => `
-      <section class="education-section">
-        <h2>${type}</h2>
-        <div class="education-items">
-          ${items.map(item => `
-            <div class="card">
-              <h3>${item.title}</h3>
-              <p class="institution">${item.institution}</p>
-              <p class="year">${item.year}</p>
-              ${item.details ? `<p class="details">${item.details}</p>` : ''}
+    // Convert to array - show all institutions
+    const institutions = Array.from(institutionsMap.entries());
+    
+    container.innerHTML = `
+      <div class="education-timeline-line"></div>
+      <div class="education-institutions">
+        ${institutions.map(([institutionName, educations]) => `
+          <div class="education-institution-group">
+            <div class="education-institution-block">
+              <h3 class="education-institution-name">${institutionName}</h3>
+              ${educations.map(education => `
+                <div class="education-entry">
+                  <div class="education-period">${education.year}</div>
+                  <div class="education-title">${education.title}</div>
+                  ${education.details ? `
+                    <div class="education-details">
+                      <div class="education-detail">${education.details}</div>
+                    </div>
+                  ` : ''}
+                </div>
+              `).join('')}
             </div>
-          `).join('')}
-        </div>
-      </section>
-    `).join('');
+          </div>
+        `).join('')}
+      </div>
+    `;
   }
 
   // Certificates Page

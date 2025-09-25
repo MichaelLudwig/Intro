@@ -90,7 +90,146 @@
   color: #f3f4f6; /* Weiß für bessere Sichtbarkeit */
 }
 
-/* Ausbildungsboxen - mehr Abstand zwischen den Karten */
+/* ==========================================================================
+   EDUCATION TIMELINE - SIMILAR TO CAREER TIMELINE
+   ========================================================================== */
+
+.education-timeline {
+  position: relative;
+  margin: var(--spacing-2xl) 0;
+  display: flex;
+  gap: var(--spacing-2xl);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.education-timeline-line {
+  position: relative;
+  width: 4px;
+  background: linear-gradient(180deg, var(--accent-color) 0%, var(--primary-color) 100%);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.education-institutions {
+  flex: 1;
+}
+
+.education-institution-group {
+  position: relative;
+  margin-bottom: var(--spacing-lg);
+}
+
+.education-institution-block {
+  position: relative;
+  background: var(--background);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.education-institution-block:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.education-institution-group::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: calc(-2rem - 33px);
+  width: 24px;
+  height: 24px;
+  background: white;
+  border: 5px solid var(--accent-color);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.education-institution-name {
+  color: var(--primary-color);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xs);
+  text-align: center;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 2px;
+}
+
+.education-entry {
+  margin-bottom: var(--spacing-xs);
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.education-entry:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.education-period {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  margin-bottom: 2px;
+}
+
+.education-title {
+  color: var(--text-color);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.education-details {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--border-color);
+  margin-bottom: var(--spacing-lg);
+}
+
+.education-detail {
+  color: var(--text-muted);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  margin-bottom: var(--spacing-sm);
+}
+
+.education-detail:last-child {
+  margin-bottom: var(--spacing-md);
+}
+
+/* Responsive für Education Timeline */
+@media (max-width: 768px) {
+  .education-timeline {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+  
+  .education-timeline-line {
+    height: 4px;
+    width: 100%;
+  }
+  
+  .education-institution-group::before {
+    display: none;
+  }
+  
+  .education-institution-block {
+    padding: var(--spacing-lg);
+  }
+  
+  .education-detail {
+    font-size: var(--font-size-xs);
+    margin-bottom: var(--spacing-xs);
+  }
+}
+
+/* Legacy Education Styles - for backward compatibility */
 .education-items .card {
   margin-bottom: var(--spacing-xl);
 }
@@ -198,14 +337,14 @@
 
 .skills-list {
   display: grid;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
 }
 
 .skill-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-sm) 0;
+  padding: var(--spacing-xs) 0;
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -214,9 +353,10 @@
 }
 
 .skill-name {
-  font-weight: 500;
+  font-weight: 400;
   color: var(--text-color);
   flex: 1;
+  font-size: var(--font-size-sm);
 }
 
 .skill-level {
@@ -419,6 +559,12 @@
   font-style: italic;
   line-height: 1.5;
   margin-bottom: 0;
+}
+
+/* Full width award card */
+.award-card-full {
+  max-width: none;
+  width: 100%;
 }
 
 /* Responsive für Awards */
@@ -1338,6 +1484,13 @@ p {
 .grid {
   display: grid;
   gap: var(--spacing-xl);
+}
+
+.grid-1 {
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .grid-2 {
