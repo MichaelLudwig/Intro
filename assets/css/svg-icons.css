@@ -1,0 +1,127 @@
+/* SVG Icon Styles - Verwendung der Portfolio-Farben */
+
+/* Base Icon Klasse */
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+/* Icon-Größen */
+.icon-sm { width: 16px; height: 16px; }
+.icon-md { width: 24px; height: 24px; }
+.icon-lg { width: 32px; height: 32px; }
+.icon-xl { width: 48px; height: 48px; }
+.icon-2xl { width: 64px; height: 64px; }
+.icon-3xl { width: 80px; height: 80px; }
+
+/* Farbvarianten mit deinen Portfolio-Farben */
+.icon-primary {
+  fill: var(--primary-color);
+  stroke: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.icon-accent {
+  fill: var(--accent-color);
+  stroke: var(--accent-color);
+  color: var(--accent-color);
+}
+
+/* Zwei Orange-Töne - benutzerdefinierte Farben */
+.icon-orange-light {
+  color: #FACF8A;
+}
+
+.icon-orange-light path[fill="#b2f0ff"],
+.icon-orange-light path[fill="#66e1ff"],
+.icon-orange-light path[fill="#e3e3e3"],
+.icon-orange-light path[fill="#78eb7b"],
+.icon-orange-light path[fill="#ff808c"] {
+  fill: #FACF8A !important;
+}
+
+.icon-orange-light path[fill="#ffef5e"] {
+  fill: #FACF8A !important; /* Medaille/Kreis Orange */
+}
+
+.icon-orange-light path[fill="#ffffff"],
+.icon-orange-light path[fill="#fff9bf"] {
+  fill: #F8B64A !important; /* Dunkles Orange für weiße Bereiche */
+}
+
+
+/* Stroke-Farben - Grauton und dünner */
+.icon-orange-light path[stroke] {
+  stroke: #6b7280 !important; /* Grauer Outline */
+  stroke-width: 0.8 !important; /* Dünnere Konturen */
+}
+
+.icon-muted {
+  fill: var(--text-muted);
+  stroke: var(--text-muted);
+  color: var(--text-muted);
+}
+
+.icon-white {
+  fill: white;
+  stroke: white;
+  color: white;
+}
+
+/* Hover-Effekte */
+.icon-hover-primary:hover {
+  fill: var(--primary-color);
+  stroke: var(--primary-color);
+  color: var(--primary-color);
+  transition: var(--transition-fast);
+}
+
+.icon-hover-accent:hover {
+  fill: var(--accent-color);
+  stroke: var(--accent-color);
+  color: var(--accent-color);
+  transition: var(--transition-fast);
+}
+
+.icon-hover-orange-light:hover {
+  fill: #fbbf24;
+  stroke: #fbbf24;
+  color: #fbbf24;
+  transition: var(--transition-fast);
+}
+
+
+/* Spezielle Icon-Kombinationen */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-md);
+  transition: var(--transition-fast);
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background: rgba(30, 58, 138, 0.05);
+}
+
+.icon-button.accent:hover {
+  background: rgba(245, 158, 11, 0.1);
+}
+
+/* Dark Mode Anpassungen */
+[data-theme="dark"] .icon-primary {
+  fill: var(--accent-color);
+  stroke: var(--accent-color);
+  color: var(--accent-color);
+}
+
+[data-theme="dark"] .icon-muted {
+  fill: var(--text-color);
+  stroke: var(--text-color);
+  color: var(--text-color);
+}

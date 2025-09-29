@@ -511,14 +511,9 @@
   overflow: hidden;
 }
 
+/* Orange Trennstrich entfernt */
 .award-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  display: none;
 }
 
 .award-card:hover {
