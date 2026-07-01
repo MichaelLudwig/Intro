@@ -1080,8 +1080,8 @@
 
 .filter-tags {
   display: flex;
-  flex-wrap: nowrap;
-  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+  gap: var(--spacing-xs) var(--spacing-sm);
   justify-content: center;
   margin-top: var(--spacing-lg);
 }
@@ -1258,6 +1258,7 @@
     right: 0;
     background: var(--background);
     flex-direction: column;
+    align-items: stretch;
     padding: var(--spacing-md);
     box-shadow: var(--shadow-lg);
     border-top: 1px solid var(--border-color);
@@ -1274,9 +1275,11 @@
   }
 
   .nav-link {
+    display: block;
     width: 100%;
+    box-sizing: border-box;
     text-align: center;
-    padding: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
     border-radius: 15px;
     font-size: var(--font-size-sm);
   }
@@ -1614,7 +1617,18 @@ p {
   .hero-name {
     font-size: var(--font-size-2xl);
   }
-  
+
+  .filter-tags {
+    gap: 6px;
+  }
+
+  .filter-tag {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    letter-spacing: 0.2px;
+    border-width: 1px;
+  }
+
   .profile-image {
     width: 200px;
     height: 200px;

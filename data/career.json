@@ -1,12 +1,25 @@
 [
   {
-    "company": "Freelancer",
-    "role": "KI-Architekt & Compliance Berater",
-    "period": "2025–heute",
+    "company": "MSL GmbH",
+    "role": "Founder & Geschäftsführer",
+    "period": "seit 01/2026",
+    "location": "Bernau bei Berlin",
     "achievements": [
-      "Beratung zu KI-Architektur und Compliance-Anforderungen",
-      "Entwicklung von KI-basierten Lösungen unter Berücksichtigung regulatorischer Vorgaben",
-      "Unterstützung bei der Implementierung von EU AI Act und DSGVO-konformen KI-Systemen"
+      "KI-Compliance, Datenschutz (DSGVO/DSFA), GMP und digitale Transformation für regulierte Branchen",
+      "Projektleitung ISMS-Aufbau (NIS2 und ISO 27001) für ein Pharmaunternehmen",
+      "Fachlicher Product Owner für ein GMP-konformes Cannabis-Produktionssystem",
+      "Gesamtprojektleitung ERP-Einführung (Dynamics 365 Business Central) für eine regulierte Apotheke"
+    ]
+  },
+  {
+    "company": "mimagic GmbH",
+    "role": "Co-Founder & Geschäftsführer",
+    "period": "seit 12/2025",
+    "location": "Bernau bei Berlin",
+    "achievements": [
+      "KI-Compliance-Software für regulierte Branchen, Knowledge-Graph- und RAG-basiert, EU-hosted",
+      "KI-gestützte Brandschutzkonzept-Prüfung als erster Pilot (Graph-RAG, Azure OpenAI, Neo4j)",
+      "Compliance-Wissen als prüffesten KI-Service nutzbar machen"
     ]
   },
   {
@@ -39,7 +52,10 @@
     "role": "Business Solution Manager; Lead IT-Architekt - Bereich Business",
     "period": "2023",
     "location": "Berlin, Deutschland",
-    "skills": ["Cloud-Sicherheit", "Zero Trust"],
+    "skills": [
+      "Cloud-Sicherheit",
+      "Zero Trust"
+    ],
     "achievements": [
       "Fachliche Qualifizierung von Kundenanfragen und Abgleich mit dem Leistungsportfolio",
       "Proaktives Platzieren des Leistungsportfolios bei externen Kunden sowie innerhalb der msg Gruppe",
@@ -54,7 +70,12 @@
     "role": "Lead IT-Architekt - Abteilung IT Strategie und Architektur",
     "period": "2020-2022",
     "location": "Berlin, Deutschland",
-    "skills": ["Information Security Governance", "Cloud-Sicherheit", "Infrastruktursicherheit", "Zero Trust"],
+    "skills": [
+      "Information Security Governance",
+      "Cloud-Sicherheit",
+      "Infrastruktursicherheit",
+      "Zero Trust"
+    ],
     "achievements": [
       "Koordination und Beratung bei der Cloud Application Transition (Maschinenbauer, >16000 Mitarbeiter, 200 Anwendungen, 1500 Server)",
       "Entwicklung einer IT Gesamtarchitektur für eine Holding Gesellschaft für zukünftige M&A Vorhaben",
@@ -64,7 +85,7 @@
       "Strategische Architektur-Bewertungen inkl. Umfeld-, SWOT-, Reifegrad-, GAP- sowie Risiko- und Impact-Analysen",
       "Definition von Handlungsspielräumen und Design von IT-Architekturszenarien auf Basis von Umfeld- und Use-Case-Analysen",
       "Erstellung von Bebauungsplänen als Bindeglied zwischen Geschäftsprozessen und IT-/Applikationslandschaft",
-      "Durchführung von Wirtschaftlichkeitsbetrachtungen und Gesamtanalysen als Grundlage fundierter Handlungsempfehlungen"      
+      "Durchführung von Wirtschaftlichkeitsbetrachtungen und Gesamtanalysen als Grundlage fundierter Handlungsempfehlungen"
     ]
   },
   {
@@ -72,7 +93,9 @@
     "role": "Manager IT - Enterprise IT Architect für Leagal Pharma Startup",
     "period": "2017-2020",
     "location": "Berlin",
-    "skills": ["Infrastruktursicherheit"],
+    "skills": [
+      "Infrastruktursicherheit"
+    ],
     "achievements": [
       "Design und Implementierung einer vollständigen IT Infrastruktur auf Basis von Microsoft Azure, O365-Architektur",
       "Realisierung der Vision einer digitalen papierlosen Kanzlei",
@@ -104,7 +127,7 @@
   {
     "company": "Campana & Schott",
     "role": "Senior Consultant - SharePoint und Business Intelligence Solutions",
-    "period": "2014–2016",
+    "period": "2014-2016",
     "location": "Berlin",
     "achievements": [
       "Aufbau eines globalen Marketing und Sales Programm Managements (Pharma Konzern, ca. 40.000 MA)",
@@ -116,9 +139,9 @@
   {
     "company": "Campana & Schott",
     "role": "Consultant - SharePoint und Project Server Architekt",
-    "period": "2011–2014",
+    "period": "2011-2014",
     "achievements": [
-      "Aufbau eines globalen Knowledge Centers – Learning & Community Plattform",
+      "Aufbau eines globalen Knowledge Centers - Learning & Community Plattform",
       "Globales Programmsteuerungs-Portal (Healthcare/Pharma)",
       "Enterprise Program Management System (Energie - Gasturbinenwartung)",
       "Internes Ideation-Portal (Kreuzfahrt)"
@@ -127,7 +150,7 @@
   {
     "company": "Campana & Schott",
     "role": "Student Consultant - Schulung & Coaching SharePoint und Project Server",
-    "period": "2007–2011",
+    "period": "2007-2011",
     "achievements": [
       "Aufbau eines unternehmensweiten Innovationsportals (Healthcare - Animal Health)",
       "Implementierung der Online-Arbeitsbereiche für Ideen sowie der Prozessvisualisierung",
@@ -146,7 +169,7 @@
   {
     "company": "Deutsche Rentenversicherung Bund",
     "role": "Ausbildung zum Fachinformatiker für Anwendungsentwicklung",
-    "period": "2003–2006",
+    "period": "2003-2006",
     "location": "Berlin",
     "achievements": [
       "Auszubildender Fachinformatiker für Anwendungsentwicklung"

@@ -23,7 +23,6 @@
     "details": "Generative AI for Business Applications",
     "badgeImage": "https://images.credly.com/images/4b547104-5ce9-43d5-8708-a7abb4b0c7ec/blob"
   },
-
   {
     "type": "Zertifikat",
     "title": "TOGAF 9.2 Certified",
@@ -42,7 +41,7 @@
   },
   {
     "type": "Zertifikat",
-    "title": "Microsoft Copilot Partner Bootcamp — FY24 Participant",
+    "title": "Microsoft Copilot Partner Bootcamp - FY24 Participant",
     "institution": "Microsoft Global Partner Solutions (GPS)",
     "year": "2023",
     "details": "Microsoft Copilot Partner Training",
@@ -82,14 +81,6 @@
   },
   {
     "type": "Zertifikat",
-    "title": "AWS Partner: Cloud Economics Essentials",
-    "institution": "Amazon Web Services Training and Certification",
-    "year": "2023",
-    "details": "AWS Partner Training",
-    "badgeImage": "https://images.credly.com/images/5749832b-21b7-47f9-9ad4-b2fef13d0454/blob"
-  },
-  {
-    "type": "Zertifikat",
     "title": "AWS Partner: Sales Accreditation",
     "institution": "Amazon Web Services Training and Certification",
     "year": "2023",
@@ -104,7 +95,6 @@
     "details": "AZ-900: Azure Fundamentals",
     "badgeImage": "https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
   },
-
   {
     "type": "Zertifikat",
     "title": "Microsoft Cloud Sales Academy",
@@ -113,7 +103,6 @@
     "details": "Cloud Sales Training",
     "badgeImage": "https://images.credly.com/images/ae292812-29f3-429b-bf56-ef25caeee896/Part_Final.png"
   },
-
   {
     "type": "Zertifikat",
     "title": "Exam 346: Managing Office 365 Identities and Requirements",
@@ -122,7 +111,6 @@
     "details": "Office 365 Identity Management",
     "badgeImage": "https://images.credly.com/images/68236c47-bc97-4db0-8843-135f3ec8da53/Managing_Office_365_Identities_and_Requirements-01.png"
   },
-  
   {
     "type": "Zertifikat",
     "title": "Exam 463: Implementing a Data Warehouse with Microsoft SQL Server 2012/2014",
